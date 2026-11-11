@@ -9,7 +9,7 @@ DEFAULT_SCAN_INTERVAL: Final = 20
 
 CONF_PASSCODE: Final = "passcode"
 
-PLATFORMS: Final = ["switch", "number", "light"]
+PLATFORMS: Final = ["switch", "number", "light", "select"]
 
 PRODUCT_KEY: Final = "e2313fe07bca48fb82861d5f961993c5"
 
@@ -42,6 +42,27 @@ COLOR_KEYS: Final = (
     "BLUE_KEY4",
     "BLUE_KEY5",
 )
+
+# Stable select option keys corresponding one-to-one with COLOR_KEYS.
+COLOR_OPTIONS: Final = (
+    "red_1",
+    "red_2",
+    "red_3",
+    "red_4",
+    "red_5",
+    "green_1",
+    "green_2",
+    "green_3",
+    "green_4",
+    "green_5",
+    "blue_1",
+    "blue_2",
+    "blue_3",
+    "blue_4",
+    "blue_5",
+)
+
+COLOR_OPTION_TO_KEY: Final = dict(zip(COLOR_OPTIONS, COLOR_KEYS, strict=True))
 
 # Colours sampled from the original AFIRE React Native template assets.
 COLOR_RGB: Final = {

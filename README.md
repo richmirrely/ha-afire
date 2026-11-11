@@ -13,9 +13,11 @@ protocol. Home Assistant connects directly to the fireplace on TCP port
 - Flame speed 1–8 (`number`)
 - Orange decorative light (`light`)
 - RGB light with 15 fixed colour presets and Smooth/Fade 1/Fade 2 effects (`light`)
+- Exact fixed RGB colour preset (`select`)
 
 The Home Assistant RGB colour picker is mapped to the nearest preset supported
-by the fireplace.
+by the fireplace. The separate preset selector exposes all 15 device colours
+directly and always reports the preset currently active on the fireplace.
 
 ## Installation with HACS
 
