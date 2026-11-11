@@ -37,21 +37,21 @@
       "rgb_color": {
         "name": "RGB colour preset",
         "state": {
-          "red_1": "Red 1",
-          "red_2": "Red 2",
-          "red_3": "Red 3",
-          "red_4": "Red 4",
-          "red_5": "Red 5",
-          "green_1": "Green 1",
-          "green_2": "Green 2",
-          "green_3": "Green 3",
-          "green_4": "Green 4",
-          "green_5": "Green 5",
-          "blue_1": "Blue 1",
-          "blue_2": "Blue 2",
-          "blue_3": "Blue 3",
-          "blue_4": "Blue 4",
-          "blue_5": "Blue 5"
+          "red_1": "Red",
+          "red_2": "Scarlet",
+          "red_3": "Red-orange",
+          "red_4": "Orange",
+          "red_5": "Yellow",
+          "green_1": "Green",
+          "green_2": "Lime green",
+          "green_3": "Turquoise",
+          "green_4": "Light blue",
+          "green_5": "Dark turquoise",
+          "blue_1": "Blue",
+          "blue_2": "Bright blue",
+          "blue_3": "Dark purple",
+          "blue_4": "Purple",
+          "blue_5": "Pink"
         }
       }
     }
