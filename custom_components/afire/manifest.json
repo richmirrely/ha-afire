@@ -1,13 +1,14 @@
 {
   "domain": "afire",
   "name": "AFIRE Fireplace",
+  "categories": ["lighting.lighting_systems"],
   "codeowners": ["@richmirrely"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/richmirrely/ha-afire",
-  "issue_tracker": "https://github.com/richmirrely/ha-afire/issues",
   "integration_type": "device",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/richmirrely/ha-afire/issues",
   "requirements": [],
   "version": "0.1.0"
 }
