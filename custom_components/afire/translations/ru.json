@@ -1,0 +1,38 @@
+{
+  "title": "Камин AFIRE",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Подключение камина AFIRE",
+        "description": "Прямое подключение к камину через локальную сеть.",
+        "data": {
+          "host": "IP-адрес или имя хоста",
+          "passcode": "Локальный код доступа",
+          "name": "Название"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться к камину",
+      "invalid_auth": "Камин отклонил локальный код доступа",
+      "unknown": "Непредвиденная ошибка"
+    },
+    "abort": {
+      "already_configured": "Этот камин уже настроен"
+    }
+  },
+  "entity": {
+    "switch": {
+      "power": {"name": "Питание"}
+    },
+    "number": {
+      "flame_level": {"name": "Уровень пламени"},
+      "flame_speed": {"name": "Скорость пламени"}
+    },
+    "light": {
+      "orange_light": {"name": "Оранжевая подсветка"},
+      "rgb_light": {"name": "RGB-подсветка"}
+    }
+  }
+}
+

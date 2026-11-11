@@ -1,0 +1,38 @@
+{
+  "title": "AFIRE Fireplace",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to AFIRE Fireplace",
+        "description": "Connect directly to the fireplace over the local network.",
+        "data": {
+          "host": "IP address or hostname",
+          "passcode": "Local passcode",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the fireplace",
+      "invalid_auth": "The local passcode was rejected",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This fireplace is already configured"
+    }
+  },
+  "entity": {
+    "switch": {
+      "power": {"name": "Power"}
+    },
+    "number": {
+      "flame_level": {"name": "Flame level"},
+      "flame_speed": {"name": "Flame speed"}
+    },
+    "light": {
+      "orange_light": {"name": "Orange light"},
+      "rgb_light": {"name": "RGB light"}
+    }
+  }
+}
+
